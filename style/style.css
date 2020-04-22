@@ -1,0 +1,104 @@
+html {
+  height: 100vh;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/together.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: slategray;
+    height: auto;
+    text-shadow: 0 40px 40px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#jumbo_logo {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.info-tiles {
+    width: auto;
+    height: auto;
+    color: lightyellow;
+    font-weight: 600;
+    background: rgba(7, 7, 7, 0.616);
+}
+
+.front-box {
+    border: 3px solid gray;
+    border-radius: 10%;
+    box-shadow: 0 60px 60px rgba(0,0,0,0.23);
+}
+
+.move-icon {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 20%;
+    background: transparent;
+}
+
+.dif-text {
+  font-weight: 900;
+  font-size: 120%;
+  color: aqua;
+}
+
+.card-image {
+  height: 20%;
+  width: auto;
+  margin-left: 35%;
+  margin-right: auto;
+}
+
+/*Profile Card 5*/
+.profile-card-5{
+    margin-top:10px;
+    margin-bottom: 20px;
+    background: rgba(83, 189, 231, 0.534);
+    color: aliceblue;
+}
+.profile-card-5 .btn{
+    border-radius:2px;
+    text-transform:uppercase;
+    font-size:12px;
+    padding:7px 20px;
+}
+.profile-card-5 .card-img-block {
+    width: 91%;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+    
+}
+.profile-card-5 .card-img-block img{
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.63);
+}
+.profile-card-5 h5{
+    color:#4E5E30;
+    font-weight:600;
+}
+.profile-card-5 p{
+    font-size:14px;
+    font-weight:300;
+}
+.profile-card-5 .btn-primary{
+    background-color:#4E5E30;
+    border-color:#4E5E30;
+}
+.card-tile {
+    border: 1px solid transparent;
+    width: 90%;
+}
+footer {
+    height: 40px;
+    width: 100%;
+
+}
+.blur {
+    filter: blur(10px);
+    /* -webkit-filter: blur(8px); */
+}
